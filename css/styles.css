@@ -1,0 +1,108 @@
+
+
+body {
+    width: 100%;
+    background-color: gray;
+    clear: both;
+    margin: auto;
+}
+
+header{
+  margin: auto 0;
+  width: 100%;
+  height: 50px;
+  background-color: white;
+}
+nav{
+  margin: auto 0;
+  float: right;
+  width: 300px;
+  display: inline-block;
+  padding-top: 10px;
+}
+nav a{
+  text-decoration: none;
+  font-size: 20px;
+  margin: 10px;
+  color: black;
+}
+nav a:hover{
+  color: blue;
+}
+
+.container {
+    float: left;
+
+    margin: 0 auto;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+
+}
+
+article {
+    height: 450px;
+    text-align: center;
+    /*  clear: both;
+*/
+}
+
+#column1 {
+    padding: 20px;
+    float: left;
+    width: 45%;
+    height: 900px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+#column2 {
+    padding: 20px;
+    float: left;
+    width: 45%;
+    height: 900px;
+    margin: 0 auto;
+    display: inline-block;
+}
+
+.left {
+    margin-right: 5px;
+    float: left;
+    width: 200px;
+    height: 400px;
+    display: inline-block;
+}
+
+.right {
+    margin-top: 50px;
+    float: left;
+    width: 200px;
+    height: 400px;
+    display: inline-block;
+}
+
+h1 {
+  margin: auto 0;
+  display: inline-block;
+  font-size: 40px;
+}
+
+h2 {
+    font-size: 20px;
+
+}
+
+p {
+    font-size: 15px;
+}
+
+h3 {
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+.clearfix:after {
+  content: " ";
+  clear: both;
+  display: block;
+}
+

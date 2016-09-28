@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>HTML Forms</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <script src="js/app.js"></script>
+</head>
+<body>
+  <header id="header" class="">
+    <nav>
+      <ul>
+        <li><a href="" title="">home</a></li>
+        <li><a href="" title="">checkout</a></li>
+        <!-- <li><a href="" title="">about</a></li> -->
+      </ul>
+    </nav>
+  </header><!-- /header -->
+  <main>
+    <h1>List Maker</h1>
+
+    <article>
+      <form action="http://localhost:3000/showForm" class="list-maker-form" method="get" >
+        <fieldset>
+        <label>First name
+          <input type="text" name="FirstName" />
+        </label>
+
+        <label>Last name
+          <input type="text" name="LastName" />
+        </label>
+        <label>Email
+          <input type="text" name="email" />
+        </label>
+
+          <button type="submit">Submit</button>
+          </fieldset>
+      </form>
+      <select name="select">
+  <option value="value1">Value 1</option>
+  <option value="value2" selected>Value 2</option>
+  <option value="value3">Value 3</option>
+</select>
+    </article>
+    <aside class="list-output">
+
+    </aside>
+  </main>
+  <footer>
+    <h5>Footer</h5>
+  </footer>
+</body>
+</html>
