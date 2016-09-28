@@ -48,11 +48,10 @@ article {
 }
 
 #column1 {
-    padding-right: 10%;
     float: left;
     width: 45%;
     height: 900px;
-    margin: 0 aut0;
+    margin: 0 auto;
     display: inline-block;
 }
 
