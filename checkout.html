@@ -9,13 +9,15 @@
     <link rel="stylesheet" href="css/style2.css">
 </head>
 
+
 <body>
     <header>
-        <h1>Checkout</h1>
-        <nav>
+        <h1>Checkout <span>
+           <nav>
             <a href="home.html">Home</a>
             <a href="checkout.html">Go to Cart</a>
         </nav>
+        </span></h1>
     </header>
     <div id="the-form">
         <form action="http://localhost:3000/showForm" method="post">
@@ -44,7 +46,7 @@
                 <input type="text" name="zip">
                 <br> Country:
                 <br>
-                <select name="select">
+                <select name="select" class="pop">
                     <option value="AF">Afghanistan</option>
                     <option value="AX">Åland Islands</option>
                     <option value="AL">Albania</option>
@@ -306,9 +308,9 @@
                         <input type="radio" name="payment" value="paypal" checked><span class="paypalimg"><a href="https://www.paypal.com/"><img src="http://www.xpressbet.com/files/landing/paypal_logo.png"></a></span>
                         <br>
                     </div>
-                    <input type="radio" name="payment" value="debit">Debit Card #<span><input type="text" name="zip"></span>
+                    <input type="radio" name="payment" value="debit">   Debit Card #<span><input type="text" name="zip"></span>
                     <br>
-                    <input type="radio" name="payment" value="Credit">Credit Card #<span><input type="text" name="zip"></span>
+                    <input type="radio" name="payment" value="Credit">   Credit Card #<span><input type="text" name="zip"></span>
                     <br>
                 </div>
             </fieldset>
