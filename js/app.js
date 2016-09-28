@@ -6,11 +6,12 @@ document.addEventListener('DOMContentLoaded', function() {
     $('.cart').append($('<ul>'))
     //$('.cart ul').append($('<li>'))
     for (i = 0; i < y.length; i++) {
-
+        $('.form').append($(y))
         var x = $('.btn');
-        var z = $('.cart').click($('.btn')).append(y[i]);
-        $('.cart ul li').append($(z))
+        var z = $('.form').click($('.btn2')).append(y[i]);
+       // $('.cart ul li').append($(z))
     }
+    console.log(window.location.search.charAt(1))
 
 });
 

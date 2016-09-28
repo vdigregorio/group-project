@@ -1,4 +1,4 @@
-var seachUrl = window.location.search.substring(1);
+var searchUrl = window.location.search.substring(1);
 var split = [];
 split = searchUrl.split("&");
 var obj = {};
@@ -11,9 +11,9 @@ for (i = 0; i < split.length; i++) {
 }
 var select = key;
 if (obj[select] === value1) {
-  $('.cart').append('NEW')
+  $('.cart').appendTo('NEW')
 } else if (obj[select] === value2) {
-  $('.cart').append('USED')
+  $('.cart').appendTo('USED')
 } else if (obj[select] === value3) {
-  $('.cart').append('NO SELECTION')
+  $('.cart').appendTo('NO SELECTION')
 }

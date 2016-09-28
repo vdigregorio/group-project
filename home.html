@@ -18,125 +18,43 @@
             <a href="checkout.html">Go to Cart</a>
         </nav>
     </header>
-    <div class="container">
-        <div id="column1">
-            <article>
-                <div class="left">
-                    <h2>book name</h2>
-                    <img src="images/blah.png">
-                </div>
-                <div class="right">
-                    <h2>Description</h2>
-                    <p>This book is about blah bllah b;ah b;ah skwdjwfkjhekghbjbvjbjb</p>
-                    <h3>Price</h3>
-                    <label>
-                        <select name="select" class="selectlist">
-                            <option value="value3" selected>Select Condition</option>
-                            <option class="options" value="value1">New</option>
-                            <option class="options" value="value2">Used</option>
-                        </select>
-                    </label>
-                    <br>
-                    <label>
-                        <select name="select" class="selectlist">
-                            <option value="value5" selected>Select Type</option>
-                            <option class="options" value="value3">Paperback</option>
-                            <option class="options" value="value4">Hardback</option>
-                        </select>
-                    </label>
-                    <br>
-                </div>
-            </article>
-            <article>
-                <div class="left">
-                    <h2>book name</h2>
-                    <img src="images/blah.png">
-                </div>
-                <div class="right">
-                    <h2>Description</h2>
-                    <p>This book is about blah bllah b;ah b;ah skwdjwfkjhekghbjbvjbjb</p>
-                    <h3>Price</h3>
-                    <label>
-                        <select name="select" class="selectlist">
-                            <option value="value3" selected>Select Condition</option>
-                            <option class="options" value="value1">New</option>
-                            <option class="options" value="value2">Used</option>
-                        </select>
-                    </label>
-                    <br>
-                    <label class='selectlist'>
-                        <select name="select" class="selectlist">
-                            <option value="value5" selected>Select Type</option>
-                            <option class="options" value="value3">Paperback</option>
-                            <option class="options" value="value4">Hardback</option>
-                        </select>
-                    </label>
-                    <br>
-                </div>
-            </article>
-        </div>
-        <div id="column2">
-            <article>
-                <div class="left">
-                    <h2>book name</h2>
-                    <img src="images/blah.png">
-                </div>
-                <div class="right">
-                    <h2>Description</h2>
-                    <p>This book is about blah bllah b;ah b;ah skwdjwfkjhekghbjbvjbjb</p>
-                    <h3>Price</h3>
-                    <label class='selectlist'>
-                        <select name="select" class="selectlist">
-                            <option value="value3" selected>Select Condition</option>
-                            <option class="options" value="value1">New</option>
-                            <option class="options" value="value2">Used</option>
-                        </select>
-                    </label>
-                    <br>
-                    <label>
-                        <select name="select" class="selectlist">
-                            <option value="value5" selected>Select Type</option>
-                            <option class="options" value="value3">Paperback</option>
-                            <option class="options" value="value4">Hardback</option>
-                        </select>
-                    </label>
-                    <br>
-                </div>
-            </article>
-            <article>
-                <div class="left">
-                    <h2>book name</h2>
-                    <img src="images/blah.png">
-                </div>
-                <div class="right">
-                    <h2>Description</h2>
-                    <p>This book is about blah bllah b;ah b;ah skwdjwfkjhekghbjbvjbjb</p>
-                    <h3>Price</h3>
-                    <label>
-                        <select name="select" class="selectlist">
-                            <option value="value3" selected>Select Condition</option>
-                            <option class="options" value="value1">New</option>
-                            <option class="options" value="value2">Used</option>
-                        </select>
-                    </label>
-                    <br>
-                    <label class='selectlist'>
-                        <select name="select" class="selectlist">
-                            <option value="value5" selected>Select Type</option>
-                            <option class="options" value="value3">Paperback</option>
-                            <option class="options" value="value4">Hardback</option>
-                        </select>
-                    </label>
-                    <br>
-                </div>
-            </article>
-        </div>
-        <button class="btn2">
-            CHECKOUT!
-        </button>
-    </div>
+        <div class="container">
+            <div id="column1">
+                <article>
+                    <div class="left">
+                        <h2>book name</h2>
+                        <img src="images/blah.png">
+                    </div>
+                    <div class="right">
+                        <h2>Description</h2>
+                        <p>This book is about blah bllah b;ah b;ah skwdjwfkjhekghbjbvjbjb</p>
+                        <h3>Price</h3>
+
+                            <form action="checkout.html" class="list-maker-form" method="get">
+
+                            <select name="select" class="selectlist">
+                                <option value="value3" selected>Select Condition</option>
+                                <option class="options" value="value1" name="new">New</option>
+                                <option class="options" value="value2" name="used">Used</option>
+                            </select>
 
 
+                        <br>
+                        <!-- <label>
+                            <select name="select" class="selectlist">
+                                <option value="value5" selected>Select Type</option>
+                                <option class="options" value="value3" name="paper">Paperback</option>
+                                <option class="options" value="value4" name="hard">Hard Copy</option>
+                            </select>
+                        </label> -->
+                        <br>
+                    </div>
+                </article>
+
+            <button class="btn2">
+                CHECKOUT!
+            </button>
+        </div>
 
 </body>
 
