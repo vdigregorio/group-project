@@ -13,81 +13,93 @@
 </head>
 
 <body>
-    <form action="checkout.html" class="list-maker-form" method="get">
-        <header>
-            <h1>Book Store</h1>
-            <nav>
-                <a href="home.html">Home</a> |
-                <a href="checkout.html">Go to Cart</a>
-            </nav>
-        </header>
-        <div class="container">
-            <div class="top">
+    <header>
+        <h1>Book Store</h1>
+        <nav>
+            <a href="home.html">Home</a> |
+            <a href="checkout.html">Go to Cart</a>
+        </nav>
+    </header>
+    <div class="container">
+        <div class="top">
+            <form action="checkout.html" class="list-maker-form" method="get">
                 <div class="bookTitle">
-                    <h2>Node.js</h2>
+                    <h2 id="book1-title">Node.js</h2>
                     <img src="images/node.jpg">
                 </div>
                 <div class="text">
                     <h4>Description</h4>
                     <p>Node.js is a powerful and popular new framework for writing scalable network programs using JavaScript.</p>
-                    <select name="book1" class="selectlist">
-                            <option value="value1" selected>Select Condition</option>
-                            <option class="options" value="new1" name="new">New $16.00</option>
-                            <option class="options" value="used1" name="used">Used $9.00</option>
-                        </select>
-                        <br>
-                        <button class="btn2">CHECKOUT!</button>
-                </div>
+                    <select name="Node.js" class="selectlist">
+                        <option value="value1" selected>Select Condition</option>
+                        <option class="options" value="16.00" name="new">New $16.00</option>
+                        <option class="options" value="9.00" name="used">Used $9.00</option>
+                    </select>
+                    <br>
+                    <button class="btn2">CHECKOUT!</button>
+            </form>
+            </div>
+            <form action="checkout.html" class="list-maker-form" method="get">
                 <div class="bookTitle">
-                    <h2>Ruby</h2>
+                    <h2 class="h2">Ruby</h2>
                     <img src="images/rubyPro.jpeg">
                 </div>
                 <div class="text">
                     <h4>Description</h4>
                     <p> Ruby In A Nutshell, The Ruby Programming Language is a new book by David Flanagan and Yukihiro Matsumoto. </p>
-                    <select name="book2" class="selectlist">
+                    <select name="Ruby" class="selectlist">
                         <option value="value2" selected>Select Condition</option>
-                        <option class="options" value="new2" name="new">New</option>
-                        <option class="options" value="used2" name="used">Used</option>
+                        <option class="options" value="16.00" name="new">New $16.00</option>
+                        <option class="options" value="9.00" name="used">Used $9.00</option>
                     </select>
                     <br>
                     <button class="btn2">CHECKOUT!</button>
-                </div>
+            </form>
             </div>
-
-            <div class="bottom">
+        </div>
+        <div class="bottom">
+            <form action="checkout.html" class="list-maker-form" method="get">
                 <div class="bookTitle">
-                    <h2>Python 3</h2>
+                    <h2 class="h2">Python 3</h2>
                     <img src="images/py.jpg">
                 </div>
                 <div class="text">
                     <h4>Description</h4>
                     <p>Python is a new and innovative scripting language for serious application developers who want a feature-rich</p>
-                    <select name="book3" class="selectlist">
+                    <select name="Python" class="selectlist">
                         <option value="value3" selected>Select Condition</option>
-                        <option class="options" value="new3" name="new">New</option>
-                        <option class="options" value="used3" name="used">Used</option>
+                        <option class="options" value="16.00" name="new">New $16.00</option>
+                        <option class="options" value="9.00" name="used">Used $9.00</option>
                     </select>
                     <br>
                     <button class="btn2">CHECKOUT!</button>
-                </div>
+            </form>
+            </div>
+            <form action="checkout.html" class="list-maker-form" method="get">
                 <div class="bookTitle">
-                    <h2>Javascript</h2>
+                    <h2 class="h2">Javascript</h2>
                     <img src="images/javascript.jpeg">
                 </div>
                 <div class="text">
+<<<<<<< HEAD
                     <h4>Description</h4>
                     <p>This Fifth Edition is completely revised and expanded to cover JavaScript as it is used in today's Web 2.0.</p>
                     <select name="book4" class="selectlist">
+=======
+                    <h2>Description</h2>
+                    <p>This Fifth Edition is completely revised and expanded to cover JavaScript as it is used in today's Web 2.0 applications.</p>
+                    <select name="Javascript" class="selectlist">
+>>>>>>> 23cdf9d6b19958fd81236e60093873a4e47f98f5
                         <option value="value4" selected>Select Condition</option>
-                        <option class="options" value="new4" name="new">New</option>
-                        <option class="options" value="used4" name="used">Used</option>
+                        <option class="options" value="16.00" name="new">New $16.00</option>
+                        <option class="options" value="9.00" name="used">Used $9.00</option>
                     </select>
                     <br>
                     <button class="btn2">CHECKOUT!</button>
-                </div>
+            </form>
             </div>
         </div>
+    </div>
     </form>
 </body>
 

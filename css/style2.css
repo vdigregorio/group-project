@@ -1,4 +1,5 @@
 * {
+<<<<<<< HEAD
   margin: 0;
   padding: 0px;
   font-family: 'Gloria Hallelujah', cursive;
@@ -30,29 +31,69 @@ nav a{
 
 nav a:hover{
   color:#114a3f;
+=======
+ margin: 0;
+ padding: 0px;
+ font-family: 'Gloria Hallelujah', cursive;
+}
+
+header {
+ font-size: 24px;
+ height: 80px;
+ background-color: #e7646d ;
+ border-bottom: 1px solid black;
+ color: #ffffff ;
+}
+
+nav{
+  margin: 0 auto;
+  float: right;
+  width: 300px;
+  display: inline-block;
+  padding-top: 10px;
+  color: #ffffff ;
+}
+
+nav a{
+text-decoration: none;
+font-size: 20px;
+margin: 10px;
+color: #ffffff ;
+}
+
+nav a:hover{
+ color:#114a3f ;
+>>>>>>> 23cdf9d6b19958fd81236e60093873a4e47f98f5
 }
 
 footer {
- text-align: center;
-  height: 40px;
-  background-color: #939393;
-  margin-bottom: 0;
+text-align: center;
+ height: 40px;
+ background-color: #939393 ;
+ margin-bottom: 0;
 }
 
 body {
+<<<<<<< HEAD
 /*background-color: #DCDCDC;*/
   margin: 0 auto;
   width: 100;
   color: #e7646d;
+=======
+ margin: 0 auto;
+ width: 100;
+ color: #e7646d ;
+>>>>>>> 23cdf9d6b19958fd81236e60093873a4e47f98f5
 
 }
 
 legend {
-  font-size: 30px;
-  text-align: center;
+ font-size: 30px;
+ text-align: center;
 }
 
 #the-form {
+<<<<<<< HEAD
   max-width: 600px;
   margin: 5px auto;
 
@@ -60,27 +101,42 @@ legend {
   background-color: #2c2f2f;
   padding:3px 15px 5px 15px;
   border: 1px solid #e7646d;
+=======
+ max-width: 600px;
+ margin: 5px auto;
+
+ text-align: center;
+ background-color: #2c2f2f ;
+ padding:3px 15px 5px 15px;
+ border: 1px solid #e7646d ;
+>>>>>>> 23cdf9d6b19958fd81236e60093873a4e47f98f5
 }
 
 form{
-  margin-top:20px;
+ margin-top:20px;
 }
 
 fieldset {
+<<<<<<< HEAD
   text-align: left;
   padding: 15px;
+=======
+ text-align: left;
+ padding: 15px;
+>>>>>>> 23cdf9d6b19958fd81236e60093873a4e47f98f5
 }
 
 input {
-   margin-left: 20px;
+  margin-left: 20px;
 }
 
 .paypalimg img {
-  width: 60px;
-  /*margin-left: 20px;*/
+ width: 60px;
+
 }
 
 #pay {
+<<<<<<< HEAD
   line-height: 30px;
 }
 /*a {
@@ -88,8 +144,13 @@ input {
   color: black;
   margin-right: 10px;
   margin-left: 10px;
+=======
+ line-height: 30px;
+>>>>>>> 23cdf9d6b19958fd81236e60093873a4e47f98f5
 }
+/
 
+<<<<<<< HEAD
 a:hover {
   color:red ;
 }*/
@@ -104,11 +165,14 @@ nav a{
  font-size: 20px;
  color: black;
 }*/
+=======
+>>>>>>> 23cdf9d6b19958fd81236e60093873a4e47f98f5
 h1 {
-  margin-left: 20px;
+ margin-left: 20px;
 }
 
 button{
+<<<<<<< HEAD
   padding: 5px;
   margin-top:20px;
   font-size: 24px;
@@ -116,10 +180,38 @@ button{
   border-radius: 15px;
   background-color: #e7646d;
   color:#fff;
+=======
+ padding: 5px;
+ margin-top:20px;
+ font-size: 24px;
+ border: 1px solid black;
+ border-radius: 15px;
+ background-color: #e7646d ;
+ color:#fff;
+>>>>>>> 23cdf9d6b19958fd81236e60093873a4e47f98f5
 }
 
 .pop {
-  margin-bottom: 20px;
+ margin-bottom: 20px;
+}
+
+footer{
+ color: #fff;
+ background-color: #e7646d ;
+}
+.cart p{
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px;
+}
+.cart span{
+  font-size: 20px;
+  display: inline-block;
+  float: right;
+  padding: 10px;
+}
+a{
+  padding-left: 10px;
 }
 
 footer{

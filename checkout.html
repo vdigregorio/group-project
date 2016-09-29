@@ -20,13 +20,13 @@
         </nav>
         </span></h1>
     </header>
-    <div id="the-form">
-        <fieldset id="checkout">
-            <legend>Checkout Cart</legend>
-            <div class="cart">
-            </div>
-        </fieldset>
-        <form action="http://localhost:3000/showForm" method="post">
+    <form action="http://localhost:3000/showForm" method="post">
+        <div id="the-form">
+            <fieldset id="checkout">
+                <legend id="cart-header">Checkout Cart</legend>
+                <div class="cart">
+                </div>
+            </fieldset>
             <fieldset id="personal">
                 <legend>Personal Info:</legend>
                 Full Name:
@@ -321,7 +321,7 @@
                 </div>
             </fieldset>
             <button type="submit">Purchase</button>
-    </div>
+        </div>
     </form>
     <footer>
         <h2>Thank you for Shopping</h2>
