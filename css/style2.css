@@ -1,6 +1,6 @@
 * {
   margin: 0;
-  padding: 0;
+  padding: 0px;
   font-family: 'Gloria Hallelujah', cursive;
 }
 
@@ -55,10 +55,11 @@ legend {
 #the-form {
   max-width: 600px;
   margin: 5px auto;
+
   text-align: center;
   background-color: #2c2f2f;
-  padding:3px 20px 5px 20px;
-  border: 3px solid #e7646d;
+  padding:3px 15px 5px 15px;
+  border: 1px solid #e7646d;
 }
 
 form{
@@ -67,6 +68,7 @@ form{
 
 fieldset {
   text-align: left;
+  padding: 15px;
 }
 
 input {
@@ -111,9 +113,16 @@ button{
   margin-top:20px;
   font-size: 24px;
   border: 1px solid black;
-  border-radius: 5px;
+  border-radius: 15px;
+  background-color: #e7646d;
+  color:#fff;
 }
 
 .pop {
   margin-bottom: 20px;
+}
+
+footer{
+  color: #fff;
+  background-color: #e7646d;
 }
