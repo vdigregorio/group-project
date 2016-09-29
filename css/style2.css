@@ -1,4 +1,37 @@
 * {
+<<<<<<< HEAD
+  margin: 0;
+  padding: 0px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+
+header {
+  font-size: 24px;
+  height: 80px;
+  background-color: #e7646d;
+  border-bottom: 1px solid black;
+  color: #ffffff;
+}
+
+nav{
+   margin: 0 auto;
+   float: right;
+   width: 300px;
+   display: inline-block;
+   padding-top: 10px;
+   color: #ffffff;
+}
+
+nav a{
+ text-decoration: none;
+ font-size: 20px;
+ margin: 10px;
+ color: #ffffff;
+}
+
+nav a:hover{
+  color:#114a3f;
+=======
  margin: 0;
  padding: 0px;
  font-family: 'Gloria Hallelujah', cursive;
@@ -30,6 +63,7 @@ color: #ffffff ;
 
 nav a:hover{
  color:#114a3f ;
+>>>>>>> 23cdf9d6b19958fd81236e60093873a4e47f98f5
 }
 
 footer {
@@ -40,9 +74,16 @@ text-align: center;
 }
 
 body {
+<<<<<<< HEAD
+/*background-color: #DCDCDC;*/
+  margin: 0 auto;
+  width: 100;
+  color: #e7646d;
+=======
  margin: 0 auto;
  width: 100;
  color: #e7646d ;
+>>>>>>> 23cdf9d6b19958fd81236e60093873a4e47f98f5
 
 }
 
@@ -52,6 +93,15 @@ legend {
 }
 
 #the-form {
+<<<<<<< HEAD
+  max-width: 600px;
+  margin: 5px auto;
+
+  text-align: center;
+  background-color: #2c2f2f;
+  padding:3px 15px 5px 15px;
+  border: 1px solid #e7646d;
+=======
  max-width: 600px;
  margin: 5px auto;
 
@@ -59,6 +109,7 @@ legend {
  background-color: #2c2f2f ;
  padding:3px 15px 5px 15px;
  border: 1px solid #e7646d ;
+>>>>>>> 23cdf9d6b19958fd81236e60093873a4e47f98f5
 }
 
 form{
@@ -66,8 +117,13 @@ form{
 }
 
 fieldset {
+<<<<<<< HEAD
+  text-align: left;
+  padding: 15px;
+=======
  text-align: left;
  padding: 15px;
+>>>>>>> 23cdf9d6b19958fd81236e60093873a4e47f98f5
 }
 
 input {
@@ -80,15 +136,51 @@ input {
 }
 
 #pay {
+<<<<<<< HEAD
+  line-height: 30px;
+}
+/*a {
+  text-decoration: none;
+  color: black;
+  margin-right: 10px;
+  margin-left: 10px;
+=======
  line-height: 30px;
+>>>>>>> 23cdf9d6b19958fd81236e60093873a4e47f98f5
 }
 /
 
+<<<<<<< HEAD
+a:hover {
+  color:red ;
+}*/
+/*nav{
+ margin: 0 auto;
+ float: right;
+ width: 300px;
+ display: inline-block;
+}
+nav a{
+ text-decoration: none;
+ font-size: 20px;
+ color: black;
+}*/
+=======
+>>>>>>> 23cdf9d6b19958fd81236e60093873a4e47f98f5
 h1 {
  margin-left: 20px;
 }
 
 button{
+<<<<<<< HEAD
+  padding: 5px;
+  margin-top:20px;
+  font-size: 24px;
+  border: 1px solid black;
+  border-radius: 15px;
+  background-color: #e7646d;
+  color:#fff;
+=======
  padding: 5px;
  margin-top:20px;
  font-size: 24px;
@@ -96,6 +188,7 @@ button{
  border-radius: 15px;
  background-color: #e7646d ;
  color:#fff;
+>>>>>>> 23cdf9d6b19958fd81236e60093873a4e47f98f5
 }
 
 .pop {
@@ -119,4 +212,9 @@ footer{
 }
 a{
   padding-left: 10px;
+}
+
+footer{
+  color: #fff;
+  background-color: #e7646d;
 }

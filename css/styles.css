@@ -1,4 +1,45 @@
-body {
+  body {
+<<<<<<< HEAD
+  width: 100%;
+  clear: both;
+  margin: 0 auto;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #e7646d;
+}
+
+header {
+  margin: auto 0;
+  width: 100%;
+  height: 80px;
+  font-size: 24px;
+  background-color:#e7646d;
+  border-bottom: 1px solid black;
+  color: #ffffff;
+}
+
+nav{
+   margin: 0 auto;
+   float: right;
+   width: 300px;
+   display: inline-block;
+   padding-top: 10px;
+   color: #ffffff;
+}
+
+nav a{
+ text-decoration: none;
+ font-size: 20px;
+ margin: 10px;
+ color: #ffffff;
+}
+
+nav a:hover{
+  color:#114a3f;
+}
+
+
+
+=======
     width: 100%;
     clear: both;
     margin: 0 auto;
@@ -11,6 +52,14 @@ header {
     width: 100%;
     height: 80px;
     font-size: 24px;
+<<<<<<< HEAD
+    background-color: #939393;
+    border-bottom: 5px solid black;
+    color: white;
+}
+
+>>>>>>> e043f6007bf390cb056c55b3269154bf0c30f10d
+=======
     background-color: #e7646d;
     border-bottom: 1px solid black;
     color: #ffffff;
@@ -55,6 +104,7 @@ header {
     color: white;
 }
 
+>>>>>>> 23cdf9d6b19958fd81236e60093873a4e47f98f5
 .container {
     padding-left: 230px;
     width: 100%;
@@ -66,7 +116,11 @@ header {
     float: left;
     width: 600px;
     margin: 0 auto;
+<<<<<<< HEAD
+    padding-left: 220px ;
+=======
     /*padding-left: 220px;*/
+>>>>>>> 23cdf9d6b19958fd81236e60093873a4e47f98f5
     display: inline-block;
 }
 
@@ -163,8 +217,17 @@ button {
     color: #e7646d;
 }
 
+<<<<<<< HEAD
+button{
+  color:#e7646d;
+=======
 select {
     height: 50px;
     font-family: 'Gloria Hallelujah', cursive;
+>>>>>>> 23cdf9d6b19958fd81236e60093873a4e47f98f5
 }
 
+select {
+  height: 100px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
