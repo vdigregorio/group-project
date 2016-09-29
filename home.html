@@ -11,50 +11,90 @@
 </head>
 
 <body>
-    <header>
-        <h1>Name of Site</h1>
+    <form action="checkout.html" class="list-maker-form" method="get">
+      <header>
+        <h1>Book Store</h1>
         <nav>
             <a href="home.html">Home</a> |
             <a href="checkout.html">Go to Cart</a>
         </nav>
     </header>
+
         <div class="container">
+
             <div id="column1">
-                <article>
+                <div class="l">
                     <div class="left">
-                        <h2>book name</h2>
-                        <img src="images/blah.png">
+                        <h2>Node.js</h2>
+                        <img src="images/node.jpg">
                     </div>
-                    <div class="right">
+
+                    <div class="left-text">
                         <h2>Description</h2>
-                        <p>This book is about blah bllah b;ah b;ah skwdjwfkjhekghbjbvjbjb</p>
-                        <h3>Price</h3>
+                             <p>Node.js is a powerful and popular new framework for writing scalable network programs using JavaScript.</p>
 
-                            <form action="checkout.html" class="list-maker-form" method="get">
-
-                            <select name="select" class="selectlist">
-                                <option value="value3" selected>Select Condition</option>
-                                <option class="options" value="value1" name="new">New</option>
-                                <option class="options" value="value2" name="used">Used</option>
+                            <select name="book" class="selectlist">
+                                <option value="value1" selected>Select Condition</option>
+                                <option class="options" value="new1" name="new">New $16.00</option>
+                                <option class="options" value="used1" name="used">Used $9.00</option>
                             </select>
-
-
-                        <br>
-                        <!-- <label>
-                            <select name="select" class="selectlist">
-                                <option value="value5" selected>Select Type</option>
-                                <option class="options" value="value3" name="paper">Paperback</option>
-                                <option class="options" value="value4" name="hard">Hard Copy</option>
-                            </select>
-                        </label> -->
-                        <br>
                     </div>
-                </article>
+                </div>
+                <div class="r">
+                    <div class="right">
+                        <h2>Ruby</h2>
+                        <img src="images/rubyPro.jpeg">
+                    </div>
 
-            <button class="btn2">
-                CHECKOUT!
-            </button>
+                    <div class="right-text">
+                        <h2>Description</h2>
+                            <p> Ruby In A Nutshell, The Ruby Programming Language is a new book by David Flanagan and Yukihiro Matsumoto.  </p>
+
+                            <select name="book" class="selectlist">
+                                <option value="value2" selected>Select Condition</option>
+                                <option class="options" value="new2" name="new">New</option>
+                                <option class="options" value="used2" name="used">Used</option>
+                            </select>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="column2">
+                <div class="l">
+                    <div class="left">
+                        <h2>Python 3</h2>
+                        <img src="images/py.jpg">
+                    </div>
+                    <div class="left-text">
+                            <h2>Description</h2>
+                            <p>Python is a new and innovative scripting language for serious application developers who want a feature-rich</p>
+                              <select name="book" class="selectlist">
+                                  <option value="value3" selected>Select Condition</option>
+                                  <option class="options" value="new3" name="new">New</option>
+                                  <option class="options" value="used3" name="used">Used</option>
+                              </select>
+                    </div>
+                </div>
+                <div class="r">
+                    <div class="right">
+                        <h2>Javascript</h2>
+                        <img src="images/javascript.jpeg">
+                    </div>
+                    <div class="right-text">
+                          <h2>Description</h2>
+                          <p>This Fifth Edition is completely revised and expanded to cover JavaScript as it is used in today's Web 2.0 applications.</p>
+                          <select name="book4" class="selectlist">
+                                <option value="value4" selected>Select Condition</option>
+                                <option class="options" value="new4" name="new">New</option>
+                                <option class="options" value="used4" name="used">Used</option>
+                          </select>
+                    </div>
+                </div>
+            </div>
         </div>
+        <button class="btn2">CHECKOUT!</button>
+
+    </form>
 
 </body>
 

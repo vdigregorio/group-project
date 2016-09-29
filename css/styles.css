@@ -1,74 +1,94 @@
 body {
-    width: 100%;
-    background-color: white;
-    clear: both;
-    margin: auto;
-    color: black;
-    font-family: Helvetica;
+
+margin-top: 20px;
+font-family: Helvetica;
+
 }
 
-header{
-  margin: auto 0;
-  width: 100%;
-  height: 50px;
-  background-color: white;
-  border-bottom: 5px solid black;
+header {
+  font-size: 24px;
+  height: 60px;
+  background-color: #939393;
 }
 
 nav{
-  margin-top: 20px;
+ margin: 0 auto;
+ float: right;
+ width: 300px;
+ display: inline-block;
+}
+nav a{
+ text-decoration: none;
+ font-size: 20px;
+ color: black;
+}
+
+/*nav{
+
+padding: 10px;
   float: right;
-  width: 300px;
+
   display: inline-block;
-  padding-top: 10px;
 }
 
 nav a{
+  padding: 20px;
   text-decoration: none;
   font-size: 20px;
-  margin: 10px;
+  margin: 20px;
   color: black;
 
-}
+}*/
 
 nav a:hover{
   color: blue;
 }
 
 .container {
-/*    float: left;
-*/    margin: 0 auto;
-    width: 1200px;
-    height: 1000px;
-    text-align: center;
-    background-color: darkred;
+   padding: 70px;
+   max-width: 900px;
+   margin: 15px auto;
+   text-align: center;
+   background-color: #f4f0eb;
+   padding:5px 20px 5px 20px;
+ overflow: auto;
 }
 
-article {
+.column1 {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.column2 {
+  display: inline-block;
+  margin: 0 auto;
+}
+
+.l {
+  display:inline-block;
+  float: left;
+}
+.r{
+  float: left;
+}
+
+.left-text{
+  max-width: 100px;
+  margin: 0 auto;
+}
+.right-text{
+  max-width: 100px;
+  margin: 0 auto;
+}
+/*article {
     height: 450px;
     text-align: center;
 }
 
-#column1 {
-    float: left;
-    width: 600px;
-    height: 900px;
-    margin: 0 auto;
-    padding: 20px 0;
-    display: inline-block;
-}
 
-#column2 {
-    float: left;
-    width: 600px;
-    height: 900px;
-    margin: 0 auto;
-    padding: 20px 0;
-    display: inline-block;
-}
 
 .left {
-    margin-right: 5px;
+    margin-right: 47px;
     float: left;
     width: 200px;
     height: 400px;
@@ -76,7 +96,7 @@ article {
 }
 
 .right {
-    margin-top: 50px;
+    margin-top: 10px;
     float: left;
     width: 200px;
     height: 400px;
@@ -91,17 +111,23 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
+    font-size: 16px;
+    text-align: center;
 
 }
 
 p {
     font-size: 15px;
+    margin-left: 37px;
 }
 
 h3 {
-    font-size: 25px;
-    margin-bottom: 20px;
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+h2, h3, p{
+  margin-bottom: 30px;
 }
 
 .clearfix:after {
@@ -123,5 +149,14 @@ select{
 }
 
 img{
-  border: 3px solid black;
+
+  border: 1px solid black;
+
 }
+
+button{
+  margin:10px;
+
+}
+*/
+
