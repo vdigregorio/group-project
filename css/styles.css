@@ -1,51 +1,49 @@
 body {
-<<<<<<< HEAD
-  width: 100%;
-  clear: both;
-  margin: 0 auto;
-  font-family: 'Gloria Hallelujah', cursive;
-  color: #e7646d;
+    width: 100%;
+    clear: both;
+    margin: 0 auto;
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #e7646d;
 }
 
 header {
-  margin: auto 0;
-  width: 100%;
-  height: 80px;
-  font-size: 24px;
-  background-color:#e7646d;
-  border-bottom: 1px solid black;
-  color: #ffffff;
+    margin: auto 0;
+    width: 100%;
+    height: 80px;
+    font-size: 24px;
+    background-color: #e7646d;
+    border-bottom: 1px solid black;
+    color: #ffffff;
 }
 
-nav{
-   margin: 0 auto;
-   float: right;
-   width: 300px;
-   display: inline-block;
-   padding-top: 10px;
-   color: #ffffff;
+nav {
+    margin: 0 auto;
+    float: right;
+    width: 300px;
+    display: inline-block;
+    padding-top: 10px;
+    color: #ffffff;
 }
 
-nav a{
- text-decoration: none;
- font-size: 20px;
- margin: 10px;
- color: #ffffff;
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    margin: 10px;
+    color: #ffffff;
 }
 
-nav a:hover{
-  color:#114a3f;
+nav a:hover {
+    color: #114a3f;
 }
 
 
 
-=======
     width: 100%;
     clear: both;
     margin: auto;
     font-family: 'Bitter', serif;
     color: white;
-}
+
 
 header {
     margin: auto 0;
@@ -57,7 +55,6 @@ header {
     color: white;
 }
 
->>>>>>> e043f6007bf390cb056c55b3269154bf0c30f10d
 .container {
     padding-left: 230px;
     width: 100%;
@@ -69,7 +66,7 @@ header {
     float: left;
     width: 600px;
     margin: 0 auto;
-    padding-left: 220px ;
+    /*padding-left: 220px;*/
     display: inline-block;
 }
 
@@ -158,22 +155,16 @@ img {
     border: 1px solid #e7646d;
 }
 
-p {
+/*p {
     float: left;
-}
+}*/
 
-button{
-  color:#e7646d;
+button {
+    color: #e7646d;
 }
 
 select {
-  height: 100px;
-  font-family: 'Gloria Hallelujah', cursive;
+    height: 50px;
+    font-family: 'Gloria Hallelujah', cursive;
 }
-Contact GitHub API Training Shop Blog About
-© 2016 GitHub, Inc. Terms Privacy Security Status Help
-.btn3{
-display: block;
-}
-
 
