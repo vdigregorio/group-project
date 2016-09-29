@@ -42,3 +42,19 @@ app.post('/showForm', (req,res)=>{
   })
 })
 
+//
+// // We need to put a function in place that will not allow the user to submit if they haven't made a selection yet. The below doesn't work though.
+// function Info (){
+//   var $value1 = $('#val1');
+//   var $value2 = $('#val2');
+//   var $value3 = $('#val3');
+//   if ($value3= true){
+//     alert('Please make a selection');
+//     return false;
+//   }
+//   else {
+//     return true;
+//   }
+// }
+
+// function Info ();

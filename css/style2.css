@@ -5,49 +5,47 @@
 
 header {
   font-size: 24px;
-  height: 60px;
-  background-color: #939393;
+  height: 50px;
+  background-color: #ffffff;
 }
+
 footer {
  text-align: center;
   height: 40px;
   background-color: #939393;
   margin-bottom: 0;
 }
+
+body {
+    width: 100%;
+    background-color: #400001;
+    clear: both;
+    margin: auto;
+    font-family: Helvetica;
+}/*
 body {
 background-color: #DCDCDC;
   margin: 0 auto;
   width: 100;
+}*/
+
+nav{
+ margin: 0 auto;
+ float: right;
+ width: 300px;
+ display: inline-block;
 }
-legend {
-  font-size: 30px;
-  text-align: center;
+
+nav a{
+ text-decoration: none;
+ font-size: 20px;
+ color: black;
 }
-#the-form {
-  max-width: 600px;
-  margin: 15px auto;
-  text-align: center;
-  background-color: #f4f0eb;
-  padding:5px 20px 5px 20px;
-  border-top: 5px solid black;
-  border-bottom: 5px solid black;
+
+nav a:hover {
+  color:red ;
 }
-form{
-  margin-top:20px;
-}
-fieldset {
-  text-align: left;
-}
-input {
-   margin-left: 20px;
-}
-.paypalimg img {
-  width: 60px;
-  /*margin-left: 20px;*/
-}
-#pay {
-  line-height: 30px;
-}
+
 a {
   text-decoration: none;
   color: black;
@@ -55,23 +53,47 @@ a {
   margin-left: 10px;
 }
 
-a:hover {
-  color:red ;
+legend {
+  font-size: 30px;
+  text-align: center;
 }
-nav{
- margin: 0 auto;
- float: right;
- width: 300px;
- display: inline-block;
+
+#the-form {
+  max-width: 600px;
+  margin: 15px auto;
+  text-align: center;
+  background-color: #f4f0eb;
+  padding:5px 20px;
+  border-top: 5px solid black;
+  border-bottom: 5px solid black;
 }
-nav a{
- text-decoration: none;
- font-size: 20px;
- color: black;
+
+form{
+  margin-top:20px;
 }
+
+fieldset {
+  text-align: left;
+}
+
+input {
+   margin-left: 20px;
+}
+
+.paypalimg img {
+  width: 60px;
+  /*margin-left: 20px;*/
+}
+
+#pay {
+  line-height: 30px;
+}
+
 h1 {
-  margin-left: 20px;
+  margin: auto 10px;
+  font-size: 44px;
 }
+
 button{
   padding: 5px;
   margin-top:20px;
@@ -79,6 +101,7 @@ button{
   border: 1px solid black;
   border-radius: 5px;
 }
+
 .pop {
   margin-bottom: 20px;
 }

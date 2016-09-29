@@ -12,7 +12,7 @@
 
 <body>
     <header>
-        <h1>Name of Site</h1>
+        <h1>Book It</h1>
         <nav>
             <a href="home.html">Home</a> |
             <a href="checkout.html">Go to Cart</a>
@@ -22,20 +22,21 @@
             <div id="column1">
                 <article>
                     <div class="left">
-                        <h2>book name</h2>
-                        <img src="images/blah.png">
+                        <h2>Crime & Punishment</h2>
+                        <img src="images/crime.png">
                     </div>
                     <div class="right">
                         <h2>Description</h2>
-                        <p>This book is about blah bllah b;ah b;ah skwdjwfkjhekghbjbvjbjb</p>
-                        <h3>Price</h3>
+                        <p>Fyodor Dostoevsky <br><br>
+                        One of those classics you've been meaning to read but haven't gotten around to yet.</p>
 
                             <form action="checkout.html" class="list-maker-form" method="get">
 
                             <select name="select" class="selectlist">
-                                <option value="value3" selected>Select Condition</option>
-                                <option class="options" value="value1" name="new">New</option>
-                                <option class="options" value="value2" name="used">Used</option>
+                                <!-- We should create a fn that doesn't allow the user to continue if value 1 or value 2 is not selected. -->
+                                <option value="value3" id="val3" selected>Select Condition</option>
+                                <option class="options" id="val1" value="value1" name="new">New: $16.00</option>
+                                <option class="options" id="val2" value="value2" name="used">Used: $9.00</option>
                             </select>
 
 
@@ -48,12 +49,11 @@
                             </select>
                         </label> -->
                         <br>
-                    </div>
-                </article>
-
-            <button class="btn2">
+                    <button class="btn2">
                 CHECKOUT!
-            </button>
+              </button>
+            </div>
+                </article>
         </div>
 
 </body>
