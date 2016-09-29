@@ -1,10 +1,10 @@
 body {
   width: 100%;
-  background-color: maroon;
+  background-color:#bae380;
   clear: both;
   margin: auto;
   font-family: 'Bitter', serif;
-  color: white;
+  color: #441880 ;
 }
 
 header {
@@ -12,8 +12,9 @@ header {
   width: 100%;
   height: 50px;
   font-size: 24px;
-  background-color: #939393;
-  border-bottom: 5px solid black;
+  background-color: #441880;
+  border-bottom: 1px solid black;
+  color: #441880
 }
 
 nav{
@@ -22,26 +23,29 @@ nav{
    width: 300px;
    display: inline-block;
    padding-top: 10px;
+   color: #441880;
 }
 
 nav a{
  text-decoration: none;
  font-size: 20px;
  margin: 10px;
- color: black;
+ color: #441880;
 }
 
 nav a:hover{
-  color: blue;
+  color: #fff;
 }
 
-
+h1{
+  color: #441880;
+}
 
 .container {
     padding-left: 230px;
     width:100%;
     margin: 20px auto;
-    background-color: maroon;
+
     float: left;
 }
 
