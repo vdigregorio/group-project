@@ -1,9 +1,10 @@
 body {
   width: 100%;
-  background-color: gray;
+  background-color: maroon;
   clear: both;
   margin: auto;
-  font-family: Helvetica;
+  font-family: 'Bitter', serif;
+  color: white;
 }
 
 header {
@@ -37,10 +38,10 @@ nav a:hover{
 
 
 .container {
-    padding: 70px;
+    padding-left: 230px;
     width:100%;
-    margin: 0 auto;
-    background-color: #f4f0eb;
+    margin: 20px auto;
+    background-color: maroon;
     float: left;
 }
 
@@ -63,17 +64,17 @@ nav a:hover{
 }
 .bookTitle {
   margin-right: 5px;
-  /*float: left;*/
+
   width: 200px;
-  height: 400px;
+  height: 300px;
   display: inline-block;
 }
 
 .text{
   margin-top: 50px;
-  float: left;
+
   width: 200px;
-  height: 200px;
+  height: 300px;
   display:inline-block;
 }
 
@@ -95,6 +96,7 @@ p{
 img{
   border: 3px solid black
   display: inline;
+  max-height: 200px;
 }
 top {
   float:left;
