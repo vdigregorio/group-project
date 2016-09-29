@@ -1,6 +1,46 @@
 body {
+<<<<<<< HEAD
+  width: 100%;
+  clear: both;
+  margin: 0 auto;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #e7646d;
+}
+
+header {
+  margin: auto 0;
+  width: 100%;
+  height: 80px;
+  font-size: 24px;
+  background-color:#e7646d;
+  border-bottom: 1px solid black;
+  color: #ffffff;
+}
+
+nav{
+   margin: 0 auto;
+   float: right;
+   width: 300px;
+   display: inline-block;
+   padding-top: 10px;
+   color: #ffffff;
+}
+
+nav a{
+ text-decoration: none;
+ font-size: 20px;
+ margin: 10px;
+ color: #ffffff;
+}
+
+nav a:hover{
+  color:#114a3f;
+}
+
+
+
+=======
     width: 100%;
-    background-color: maroon;
     clear: both;
     margin: auto;
     font-family: 'Bitter', serif;
@@ -14,32 +54,14 @@ header {
     font-size: 24px;
     background-color: #939393;
     border-bottom: 5px solid black;
+    color: white;
 }
 
-nav {
-    margin: 0 auto;
-    float: right;
-    width: 300px;
-    display: inline-block;
-    padding-top: 10px;
-}
-
-nav a {
-    text-decoration: none;
-    font-size: 20px;
-    margin: 10px;
-    color: black;
-}
-
-nav a:hover {
-    color: blue;
-}
-
+>>>>>>> e043f6007bf390cb056c55b3269154bf0c30f10d
 .container {
     padding-left: 230px;
     width: 100%;
-    margin: 20px auto;
-    background-color: maroon;
+    margin: 20px auto 60px auto;
     float: left;
 }
 
@@ -47,23 +69,20 @@ nav a:hover {
     float: left;
     width: 600px;
     margin: 0 auto;
-    /*  padding: 20px 40 px;
-*/
+    padding-left: 220px ;
     display: inline-block;
 }
 
 .bottom {
     float: left;
     width: 600px;
-    /*height: 900px;*/
     margin: 0 auto;
-    /*  padding: 20px 40 px;
-*/
     display: inline-block;
 }
 
 .bookTitle {
     margin-right: 5px;
+    margin-top: 0px;
     width: 200px;
     height: 300px;
     display: inline-block;
@@ -77,23 +96,26 @@ nav a:hover {
 }
 
 h1 {
-    margin: auto 0;
+    margin: auto 10px;
     display: inline-block;
+    color: #ffffff;
+    margin-right: 20px;
 }
 
 h2 {
     text-align: left;
-    font-size: 16px;
+    font-size: 24px;
 }
 
 p {
     text-align: left;
-    font-size: 12px;
+    font-size: 16px;
+    margin-top: .5px;
 }
 
 img {
     border: 3px solid black display: inline;
-    max-height: 200px;
+    max-height: 220px;
 }
 
 .top {
@@ -133,11 +155,23 @@ img {
 .img {
     display: inline;
     max-width: 45px;
+    border: 1px solid #e7646d;
 }
 
 p {
     float: left;
 }
+
+button{
+  color:#e7646d;
+}
+
+select {
+  height: 100px;
+  font-family: 'Gloria Hallelujah', cursive;
+}
+Contact GitHub API Training Shop Blog About
+© 2016 GitHub, Inc. Terms Privacy Security Status Help
 .btn3{
 display: block;
 }
